@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobbies</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="java.js" defer></script>
+</head>
+<body>
+  <form action="" method="get">
+    <p><strong>Cadastrar Hobbies</strong></p>
+
+    <p>Nome:
+      <input type="text" name="nome">
+    </p>
+    <p>Idade:
+      <input type="number" name="idade" min="0" max="120">
+    </p>
+    <p>Hobbie:</p>
+    <label><input type="checkbox" name="hobbie" value="leitura"> Leitura</label><br>
+    <label><input type="checkbox" name="hobbie" value="futebol"> Futebol</label><br>
+    <label><input type="checkbox" name="hobbie" value="esporte"> Esporte</label><br>
+    <label><input type="checkbox" name="hobbie" value="cinema"> Cinema</label><br>
+    <label><input type="checkbox" name="hobbie" value="dancar"> Dançar</label><br>
+    <label><input type="checkbox" name="hobbie" value="musica"> Música</label>
+
+    <p>Sexo:</p>
+    <label><input type="radio" name="sexo" value="masculino"> Masculino</label><br>
+    <label><input type="radio" name="sexo" value="feminino"> Feminino</label>
+
+    <p>Residência:</p>
+    <select name="residencia">
+      <option value="">Selecione</option>
+      <option value="HUAMBO">HUAMBO</option>
+      <option value="CUANZA-SUL">CUANZA-SUL</option>
+      <option value="LUANDA">LUANDA</option>
+      <option value="HUILA">HUÍLA</option>
+      <option value="BENGUELA">BENGUELA</option>
+    </select>
+
+    <p>Observação:</p>
+    <textarea cols="30" rows="5" name="observacao"></textarea>
+
+    <p>
+      <input type="submit" id="submeter" value="Submeter">
+      <input type="reset" id="apagar" value="Limpar">
+    </p>
+  </form>
+</body>
+</html>
